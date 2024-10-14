@@ -3,7 +3,7 @@ import DateFilter from './components/DataFilter';
 import TimeSeriesChart from './components/TimeSeriesChart';
 import ColumnChart from './components/ColumnChart';
 import SparklineChart from './components/SparklineChart';
-import { fetchBookingData } from './services.js/api';
+import { fetchBookingData } from './services/api';
 
 const App = () => {
   const [bookingData, setBookingData] = useState([]);
