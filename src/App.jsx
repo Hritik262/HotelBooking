@@ -4,6 +4,8 @@ import TimeSeriesChart from './components/TimeSeriesChart';
 import ColumnChart from './components/ColumnChart';
 import SparklineChart from './components/SparklineChart';
 import { fetchBookingData } from './services/api';
+import './App.css';
+
 
 const App = () => {
   const [bookingData, setBookingData] = useState([]);
